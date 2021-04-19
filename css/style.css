@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.welcome {
+    padding: 8%;
+    color: white;
+    background-image: url(/img/Backgrounds/h_img.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 680px;
+    width: 100%;
+}
