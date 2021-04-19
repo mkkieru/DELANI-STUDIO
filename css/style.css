@@ -30,3 +30,16 @@
     padding-top: 5%;
     width: 100%;
 }
+
+.input-field {
+    font: ;
+    background: none;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: white;
+    outline: none;
+    background: transparent;
+}
