@@ -43,3 +43,13 @@
     outline: none;
     background: transparent;
 }
+
+.input-field1 {
+    width: 800px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: white;
+    outline: none;
+    background: transparent;
+}
