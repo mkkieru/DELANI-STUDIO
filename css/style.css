@@ -57,3 +57,7 @@
 .hovering :hover {
     opacity: 0.5;
 }
+
+#mouse {
+    padding-top: 190px;
+}
