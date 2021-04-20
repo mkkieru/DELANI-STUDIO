@@ -7,7 +7,7 @@ body {
 
 .welcome {
     color: white;
-    background-image: url(/img/Backgrounds/h_img.jpg);
+    background-image: url(./h_img.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 
 .services {
     color: white;
-    background-image: url(/img/Backgrounds/s_image.jpg);
+    background-image: url(./s_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -28,7 +28,7 @@ body {
 }
 
 .contact {
-    background-image: url(/img/Backgrounds/c_image.jpg);
+    background-image: url(./c_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
