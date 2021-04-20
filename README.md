@@ -1,11 +1,11 @@
 # DELANI STUDIO
-Project entails boilerplate code for MPFT41/42 morning stand up session on remote repositories. Languages used are HTML and Custom CSS. Topics covered include HTML tags and Intro to CSS.
+This is a project of building a website for a fiction studio
 ## Prerequisites
 Basic Git knowledge, including an installed version of Git.
 ##### Technologies Used
 - HTML & CSS
 - Javascript
--JQuery
+- JQuery
 ##### Setup Instructions and Installation
 - Clone this repository to a location in your file system. `https://github.com/mkkieru/DELANI-STUDIO.git`
 - Open terminal command line then navigate to the root folder of the application. `cd my-project`

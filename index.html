@@ -106,22 +106,24 @@
             <h2>PORTFOLIO</h2>
         </p>
         <div class="hovering">
-            <img src="./img/portfolio/work1.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work2.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work3.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work4.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work5.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work6.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work7.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
-            <img src="./img/portfolio/work8.jpg" alt="" style="height: 300px;width: 366px;padding: 5px;">
+            <img src="./img/portfolio/work1.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class1">
+            <img src="./img/portfolio/work2.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class2">
+            <img src="./img/portfolio/work3.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class3">
+            <img src="./img/portfolio/work4.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class4">
+            <br>
+            <img src="./img/portfolio/work5.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class5">
+            <img src="./img/portfolio/work6.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class6">
+            <img src="./img/portfolio/work7.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class7">
+            <img src="./img/portfolio/work8.jpg" alt="" style="padding: 5px;height: 300px; width: 330px;" id="class8">
         </div>
     </div>
     <div class="contact">
         <h2>CONTACT US</h2>
         <form>
-            <input class="input-field" type="text" placeholder="Name...">
-            <input class="input-field" type="email" placeholder="Email..."><br>
-            <textarea class="input-field1" cols="30" rows="10" placeholder="Your message here..."></textarea>
+            <input id="name" class="input-field" type="text" placeholder="Name..." required>
+            <input id="email" class="input-field" type="email" placeholder="Email..." required><br>
+            <textarea class="input-field1" cols="30" rows="10" placeholder="Your message here..."></textarea><br>
+            <input type="submit" onclick="thanks()" value="submit">
         </form>
     </div>
     <footer>
@@ -136,11 +138,12 @@
         <img src="./img/social icons/twitter.png" alt="">
         <img src="./img/social icons/you_tube.png" alt="">
         <div></div>
+        <div>
+            DELANI STUDIO
+            <DIV>2019</DIV>
+        </div>
     </footer>
-    <div>
-        DELANI STUDIO
-        <DIV>2019</DIV>
-    </div>
+
     <script>
     </script>
 </body>

@@ -1,37 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .welcome {
-    padding: 8%;
     color: white;
-    background-image: url(/h_img.jpg);
+    background-image: url(/img/Backgrounds/h_img.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 680px;
     width: 100%;
+    padding-top: 8%;
 }
 
 .services {
     color: white;
-    background-image: url(/s_image.jpg);
+    background-image: url(/img/Backgrounds/s_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 380px;
-    padding-top: 8%;
     width: 100%;
+    padding-top: 5%;
 }
 
 .contact {
-    background-image: url(/c_image.jpg);
+    background-image: url(/img/Backgrounds/c_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 600px;
-    padding-top: 5%;
     width: 100%;
+    padding: 5%;
 }
 
 .input-field {
+    color: black;
     background: none;
     width: 400px;
     height: 40px;
@@ -53,8 +60,9 @@
     background: transparent;
 }
 
-.hovering :hover {
-    opacity: 0.5;
+::placeholder {
+    color: white;
+    opacity: 1;
 }
 
 #mouse {
@@ -74,5 +82,5 @@
 }
 
 footer {
-    padding: 50px;
+    padding: 20px;
 }

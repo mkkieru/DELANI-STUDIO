@@ -26,3 +26,51 @@ $(document).ready(function() {
         $("#product").slideToggle();
     });
 });
+$(document).ready(function() {
+    $("#class1").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class2").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class3").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class4").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class5").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class6").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class7").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+    $("#class8").hover(function() {
+        $(this).css("opacity", "0.5");
+    }, function() {
+        $(this).css("opacity", "1");
+    });
+})
+
+
+function thanks() {
+    var name = document.getElementById("name").value;
+    alert(name + " we have received your message. Thank you for reaching out to us.")
+}
